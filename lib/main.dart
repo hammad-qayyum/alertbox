@@ -32,6 +32,8 @@ class MyHomePage extends StatelessWidget {
               context: context,
               builder: (BuildContext context) {
                 return AlertDialog(
+                  elevation: 8, // Add elevation
+                  backgroundColor: Colors.red, // Set background color to red
                   title: Text('Alert'),
                   content: Text('This is an example of an AlertDialog.'),
                   actions: [
